@@ -19,9 +19,10 @@
                             <hr>
                             <div class="card-body">
                                 <p>
-                                   {{Portfolio.description}}
+                                   {{Portfolio.description.slice(0, 200)}}.....
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">More</button>
+                                <button type="button" class="btn btn-outline-secondary"><router-link :to="{ path: '/portmore/'+Portfolio.title}"  append> More</router-link></button>
+                                
                             </div>
                         </div>
                     </div>

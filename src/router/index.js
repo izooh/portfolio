@@ -19,9 +19,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/upload',
-    name: 'upload',
-    component: () => import(/* webpackChunkName: "about" */ '../components/upload.vue')
+    path: '/portmore/:id',
+    name: 'folio',
+    component: () => import(/* webpackChunkName: "about" */ '../components/portmore.vue')
   },
 ]
 
