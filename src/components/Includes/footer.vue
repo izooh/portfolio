@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="card-footer row m-0">
-            <p> <label>{{address[0].company}} &copy; Copyright 2020</label></p>
+            <p> <label>{{address[0].company}} &copy; Copyright {{new Date().getFullYear()}}</label></p>
             <div>
                 <p> <small class="follow-text">FOLLOW US ON SOCIAL MEDIA</small> <label class="footer-right"> <i class="fab fa-instagram"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-twitter-square"></i> </label> </p>
             </div>
