@@ -1,10 +1,15 @@
 <template>
   <div id="app">
+  
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">Portfolio</router-link> |
+      <router-link to="#">Services</router-link> 
     </div>
+    <transition name="fade">
     <router-view/>
+    </transition>
+    <Footer/>
   </div>
 </template>
 
@@ -14,7 +19,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #616161;
+ background-color:white ;
 }
 
 #nav {
@@ -29,4 +35,17 @@
     }
   }
 }
+.fade-enter-active, .fade-leave-active {
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.fade-enter-active {
+  transition-delay: 1s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
 </style>
