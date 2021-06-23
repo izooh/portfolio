@@ -1,9 +1,17 @@
 <template>
 
   <div>
+    <!--breadcrum-->  
+    <h4 style="margin-left: 25px;margin-right:25px;">
+       <nav class="breadcrumb bg-white">
+       <a class="breadcrumb-item" href="">Portfolio</a>
+       <span class="breadcrumb-item">&#10148; {{portfolio[0].title}}</span>        
+       </nav>
+    </h4>
+<!--End of breadcrum-->
                     <div class="card mt-2">
                             <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custome" src="https://cdn.mos.cms.futurecdn.net/wH5y2PkWhCxqKBje8rBp5e.jpg" width="50" height="50">
+                                <img alt="Vue logo" class="" src="../../public/images/api.jpg" width="100%" height="300">
                                 <h2>{{portfolio[0].title}}</h2>
                             </div>
                             <hr>
@@ -53,4 +61,5 @@ export default {
 .progress-bar {
   margin: 10px 0;
 }
+
 </style>

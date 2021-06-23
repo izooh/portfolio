@@ -1,12 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
-<template>
+ 
     <div>
-       <section class="protfolio">
-            <h1>Portfolio</h1>
+       <!--breadcrum-->  
+    <h4 style="margin-left: 25px;margin-right:25px;">
+       <nav class="breadcrumb bg-white">
+       <a class="breadcrumb-item" href="">Portfolio</a>
+               
+       </nav>
+    </h4>
+    <!--End of breadcrum-->
+       <section class="protfolio pt-3">
+            <!-- <h1>Portfolio</h1> -->
             <p>These are some of the projects we have done for our clients</p>
             <div class="container">
                 <div class="row"> 
