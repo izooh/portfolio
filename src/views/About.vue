@@ -2,12 +2,12 @@
  
     <div>
        <!--breadcrum-->  
-    <h4 style="margin-left: 25px;margin-right:25px;">
+    <h6 style="margin-left: 25px;margin-right:25px;">
        <nav class="breadcrumb bg-white">
    <a class="breadcrumb-item" href=""><router-link to="/about">Portfolio</router-link></a>
                
        </nav>
-    </h4>
+    </h6>
     <!--End of breadcrum-->
        <section class="protfolio pt-3">
             <!-- <h1>Portfolio</h1> -->
